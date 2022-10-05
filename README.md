@@ -1,9 +1,6 @@
-![Logo Image](https://github.com/guldkage/Pterodactyl-Installer/blob/main/configs/installer.png?raw=true)
+# Pterodactyl Wings Installer
 
-
-# Pterodactyl Installer
-
-With this script you can easily install, update or delete Pterodactyl Panel. Everything is gathered in one script.
+With this script you can easily install, update or delete Pterodactyl Wings. Everything is gathered in one script.
 Use this script if you want to install, update or delete your services quickly. The things that are being done are already listed on [Pterodactyl](https://pterodactyl.io/), but this clearly makes it faster since it is automatic.
 
 Please note that this script is made to work on a fresh installation. There is a good chance that it will fail if it is not a fresh installation.
@@ -15,39 +12,29 @@ Read about [Pterodactyl](https://pterodactyl.io/) here. This script is not assoc
 ## Features
 This script is one of the only ones that has a well-functioning Switch Domains feature.
 
-- Install Panel
 - Install Wings
-- Install PHPMyAdmin
-- Switch Pterodactyl Domains
 - Update Panel
 - Update Wings
 - Uninstall Panel
-- Uninstall Wings
+- Install SSL Certificate
+- Enable Swap Space
 
 ## Supported webservers & OS
 Supported operating systems.
 
 - Debian based systems (Disclaimer: Please use Ubuntu system if possible. Debian may have issues with APT repositories.)
-- (You can may use the script with other systems, it is only half supported right now.)
+- (Other systems are not supported right now.)
 - Nginx webserver, please bear with me that Apache is not supported. A decision made by me.
 
 ## Copyright
-You have no right to say that you created this script. You may create a fork for this Pterodactyl-Installer, but this github must always be linked to.
-Also, do not remove my copyright at the top of the Pterodactyl-Installer script.
+All rights of this script is [guldkage](https://github.com/guldkage/Pterodactyl-Installer) and being edited by [shaikhnedab](https://github.com/shaikhnedab)
 
 ## Support
-No support is offered for this script.
 The script has been tested many times without any bug fixes, however they can still occur.
 If you find errors, feel free to open an "Issue" on GitHub.
 
 # Run the script
 Nearly all systems supports this
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/main/installer.sh)
-```
-
-### Raspbian
-Only for raspbian users. They might need a extra < in the beginning.
-```bash
-bash < <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/main/installer.sh)
+bash <(curl -s https://raw.githubusercontent.com/shaikhnedab/Pterodactyl-Wings-Installer/main/wingsinstaller.sh)
 ```
