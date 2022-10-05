@@ -13,9 +13,8 @@ Read about [Pterodactyl](https://pterodactyl.io/) here. This script is not assoc
 This script is one of the only ones that has a well-functioning Switch Domains feature.
 
 - Install Wings
-- Update Panel
 - Update Wings
-- Uninstall Panel
+- Uninstall Wings
 - Install SSL Certificate
 - Enable Swap Space
 
